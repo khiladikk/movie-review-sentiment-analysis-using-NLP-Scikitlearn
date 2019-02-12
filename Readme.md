@@ -13,7 +13,7 @@ Basically NLP can be understood by two main parts.
 
 ```
 1. Natural Language Understanding:
-Our system should be able to understand the language which includes parts of speech, context , semantics, interpretation and etc. 
+Our system should be able to understand the language which includes parts of speech, semantics, interpretation etc. 
 This can be done with the help of Machine Learning Algorithms.
 
 2. Natural Language Generation:
@@ -37,7 +37,7 @@ Example- I,me, myself, you, your etc.
 
 6. Document Vectorization: We call vectorization the general process of turning a collection of text documents into numerical feature vectors.
 
-## Some importamt Terminology:
+## Some Importamt Terminology:
 
 ```
 Corpora - Body of text or collection of text.
