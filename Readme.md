@@ -1,5 +1,5 @@
 # Objective:
-To Perform sentiment analysis on the text reviews using NLP and Sk-learn to determine whether its positive or negative and build confusion matrix to determine the accuracy.
+To Perform sentiment analysis on the text reviews using NLP and Sklearn to determine whether its positive or negative and build confusion matrix to determine the accuracy.
 
 # Intro to NLP:
 NLP which stands for "Natural Language Processing" is one of the biggest area in computer science and AI. It is as big as Machine Learning.
@@ -13,8 +13,8 @@ Basically NLP can be understood by two main parts.
 
 ```
 1. Natural Language Understanding:
-
-Our system should be able to understand the language which includes parts of speech, context , syntax , semantics, interpretation and etc. This can be done with the help of Machine Learning Algorithms.
+Our system should be able to understand the language which includes parts of speech, context , semantics, interpretation and etc. 
+This can be done with the help of Machine Learning Algorithms.
 
 2. Natural Language Generation:
 The system should be able to respond or generate text, which requires deep learning as deep understanding.
@@ -30,7 +30,7 @@ The system should be able to respond or generate text, which requires deep learn
 3. Steeming: Stemming is the process of producing morphological variants of a root/base word. 
 Example- A word "Wait" can be written as waiting, waited, waits...so we noemalize these kind of text in our dataset, which is called by steeming.
 
-4. Stop Words: There are couple of words which occur very frequently in every language and don’t have much meaning , these words are called Stop words. we remove stop words from our text data. 
+4. Stop Words: There are couple of words which occur very frequently in every language and donâ€™t have much meaning , these words are called Stop words. we remove stop words from our text data. 
 Example- I,me, myself, you, your etc.
 
 5. Data Normalization: Data normalization includes removal of unwanted and unnecessary characters from the text.
@@ -56,13 +56,15 @@ d. Jupyter-Notebook
 ## Installiation guide:
 
 ```
+pip install nltk
+
 import nltk
 nltk.download()
 
 pip install pandas
 
-pip install sklearn
+pip install -U scikit-learn
 
-Pip install jupyter notebook
+Pip install jupyter
 
 ```
