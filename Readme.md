@@ -23,19 +23,17 @@ The system should be able to respond or generate text, which requires deep learn
 
 ## Steps Involved in NLP:
 
-1. Tokenization: It means, divinding a text into tokens. It can be done with the help of tool "NLTK". 
+1. Tokenization: It means, dividing a text into tokens. It can be done with the help of the tool "NLTK". 
 
-2. Lemmatization: Lemmatization is the process of grouping together the different inflected forms of a word so they can be analysed as a single item.
+2. Lemmatization: Lemmatization is the process of grouping together the different inflected forms of a word so they can be analyzed as a single item.
 
-3. Steeming: Stemming is the process of producing morphological variants of a root/base word. 
-Example- A word "Wait" can be written as waiting, waited, waits...so we noemalize these kind of text in our dataset, which is called by steeming.
+3. Steeming: Stemming is the process of producing morphological variants of a root/base word. Example- A word "Wait" can be written as waiting, waited, waits...so we normalize these kinds of text in our dataset, which is called by steeming.
 
-4. Stop Words: There are couple of words which occur very frequently in every language and don’t have much meaning , these words are called Stop words. we remove stop words from our text data. 
-Example- I,me, myself, you, your etc.
+4. Stop Words: There are a couple of words which occur very frequently in every language and don’t have much meaning, these words are called Stop words. we remove stop words from our text data. Example- I, me, myself, you, your etc.
 
 5. Data Normalization: Data normalization includes removal of unwanted and unnecessary characters from the text.
 
-6. Document Vectorization: We call vectorization the general process of turning a collection of text documents into numerical feature vectors.
+6. Document Vectorization: WWe call vectorization the general process of turning a collection of text documents into numerical feature vectors.
 
 ## Some Importamt Terminology:
 
